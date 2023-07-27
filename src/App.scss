@@ -35,7 +35,7 @@ body {
 
 .exit {
     background-color: red;
-    line-height: 1.8rem;
+    line-height: 2rem;
     border-radius: 2rem;
     width: 2rem;
     height: 2rem;
@@ -59,7 +59,8 @@ body {
 
 .sticky-btn:hover {
     scale: 1.1;
-    opacity: .8;
+    opacity: .9;
+    background-color: rgb(210, 10, 90);
 }
 
 textarea {
