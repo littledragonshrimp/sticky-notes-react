@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import StickyNote from "./components/stickyNote"
+import StickyNote from "./components/StickyNotes"
 import "./App.css";
 
 function App() {
