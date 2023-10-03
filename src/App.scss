@@ -1,71 +1,70 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 20px;
-    background-image: url("./images/corkBackground.svg")
+  padding: 20px;
+  background-image: url("./images/corkBg.png");
 }
 
 .sticky-note {
-    background-color: orangered;
-    width: 300px;
+  background-color: orangered;
+  width: 300px;
 
-    position: absolute;
-    top: 30px;
-    left: 50px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
 }
 
 .sticky-note-header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 10px;
+  padding: 10px;
 
-    text-align: center;
-    color: white;
-    line-height: 1.8rem;
-    background-color: orangered;
+  text-align: center;
+  color: white;
+  line-height: 1.8rem;
+  background-color: orangered;
 
-
-    cursor: move;
+  cursor: move;
 }
 
 .exit {
-    background-color: red;
-    line-height: 2rem;
-    border-radius: 2rem;
-    width: 2rem;
-    height: 2rem;
+  background-color: red;
+  line-height: 2rem;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .exit:hover {
-    scale: 1.1;
-    cursor: pointer;
-    opacity: .8;
+  scale: 1.1;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .sticky-btn {
-    padding: 10px;
-    font-weight: 800;
-    font-size: 2rem;
-    background-color: rgb(219, 14, 14);
-    color: white;
-    border-radius: 10px;
-    border: none;
+  padding: 10px;
+  font-weight: 800;
+  font-size: 2rem;
+  background-color: rgb(219, 14, 14);
+  color: white;
+  border-radius: 10px;
+  border: none;
 }
 
 .sticky-btn:hover {
-    scale: 1.1;
-    opacity: .9;
-    background-color: rgb(210, 10, 90);
+  scale: 1.1;
+  opacity: 0.9;
+  background-color: rgb(210, 10, 90);
 }
 
 textarea {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 
-    resize: none;
+  resize: none;
 }
